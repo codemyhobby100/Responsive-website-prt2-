@@ -1,0 +1,183 @@
+/* *{
+   margin: 0;
+   padding: 0; 
+} */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.fix{
+    clear: both;
+}
+
+.box{
+    background-color: #010101;
+    color: #fff;
+    border: 5px solid red;
+    line-height: 1.6em;
+}
+
+.box h1{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box-2{
+    background-image: url(../images/car1.jpg);
+    width: 100%;
+    height: 100vh;
+    text-align: center !important;
+}
+
+.box-2 h2{
+    padding-top: 60px;
+    color: #fff;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.list{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.list h2{
+    text-align: center;
+}
+
+.list ul{
+    padding: 0;
+    list-style: none;
+}
+
+.list li{
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #333;
+}
+
+.list a{
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+    transition: .5s ease-in-out;
+}
+
+.list a:hover{
+    color: red;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form .form-content{
+    padding-bottom: 15px;
+}
+
+.form label{
+    display: block;
+}
+
+.form input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+
+.form textarea{
+    padding: 8px;
+    width: 100%;
+    resize: none
+    ;
+}
+
+
+.button{
+    background-color: rgb(0, 255, 179);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: rgb(5, 145, 226);
+    color: #fff;
+}
+
+.box-content{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-sidebar{
+    margin-top: 30px;
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.right-sidebar{
+    margin-top: 30px;
+    float: right;
+    width: 30%;
+    background-color: rgb(75, 250, 168);
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/img396.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
+
+}
+
+.position-box h1{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color: #fff;
+}
+
+.position-box h2{
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+    color: #fff;
+}
+
+.fix-btn{
+    position: fixed;
+    top: 400px;
+}
